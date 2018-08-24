@@ -22,7 +22,7 @@ The idea was to try and generate a representation of the word that reduces vowel
 
 The implementation provided here is not complete (I got distracted and abandoned this at some point). If I were to attempt this again I'd probably do some research into English phonetics and make choices based on research data.
 
-## Algorithm
+### Algorithm
 
 1. A dictionary file - a file containing correctly spelled words, one on each line - is required. This is considered the source of truth.
 2. The phonetic transform of every word is obtained, and a map of (phonetic output) -> (list of all dictionary words with that phonetic output) is constructed.
